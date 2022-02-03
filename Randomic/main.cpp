@@ -13,6 +13,8 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     Randomic generator;
     
-    cout << generator.generate(-5, 10) << endl;
+    cout
+    << generator.generate(100) << endl
+    << generator.generate(-100, 100) << endl;
     return 0;
 }

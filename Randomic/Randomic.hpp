@@ -18,11 +18,11 @@ public:
         srand((unsigned int)time(NULL));
     }
     
-    int generate(const int max){
+    inline int generate(const int max){
         return rand() % abs(max);
     }
     
-    int generate(const int min, const int max){
+    inline int generate(const int min, const int max){
         return (rand() % abs(max-min))+min;
     }
 };
