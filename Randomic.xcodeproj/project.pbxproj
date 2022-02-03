@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		1710455527AC89B6004F65BE /* Randomic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Randomic; sourceTree = BUILT_PRODUCTS_DIR; };
 		1710455827AC89B6004F65BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1710456027AC89DC004F65BE /* Randomic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Randomic.hpp; sourceTree = "<group>"; };
+		1710456227AC9470004F65BE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				1710455827AC89B6004F65BE /* main.cpp */,
+				1710456027AC89DC004F65BE /* Randomic.hpp */,
+				1710456227AC9470004F65BE /* README.md */,
 			);
 			path = Randomic;
 			sourceTree = "<group>";

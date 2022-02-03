@@ -6,9 +6,13 @@
 //
 
 #include <iostream>
+#include "Randomic.hpp"
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Randomic generator;
+    
+    cout << generator.generate(-5, 10) << endl;
     return 0;
 }
